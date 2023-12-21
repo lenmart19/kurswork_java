@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+
+
+    <servlet>
+        <servlet-name>index</servlet-name>
+        <servlet-class>servlets.IndexServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>index</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>company_actions</servlet-name>
+        <servlet-class>servlets.CompanyActionsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>company_actions</servlet-name>
+        <url-pattern>/company_actions</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>passenger</servlet-name>
+        <servlet-class>servlets.PassengerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>passenger</servlet-name>
+        <url-pattern>/passenger</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>company_login</servlet-name>
+        <servlet-class>servlets.CompanyLoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>company_login</servlet-name>
+        <url-pattern>/company_login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>company_registration</servlet-name>
+        <servlet-class>servlets.CompanyRegistrationServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>company_registration</servlet-name>
+        <url-pattern>/company_registration</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>company</servlet-name>
+        <servlet-class>servlets.CompanyServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>company</servlet-name>
+        <url-pattern>/company</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>create_trip</servlet-name>
+        <servlet-class>servlets.CreateTripServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>create_trip</servlet-name>
+        <url-pattern>/create_trip</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>show_company_trips</servlet-name>
+        <servlet-class>servlets.ShowCompanyTripsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>show_company_trips</servlet-name>
+        <url-pattern>/show_company_trips</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>edit_trip</servlet-name>
+        <servlet-class>servlets.EditTripServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>edit_trip</servlet-name>
+        <url-pattern>/edit_trip</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>delete_trip</servlet-name>
+        <servlet-class>servlets.DeleteTripServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>delete_trip</servlet-name>
+        <url-pattern>/delete_trip</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>show_passenger_trips</servlet-name>
+        <servlet-class>servlets.ShowPassengerTripsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>show_passenger_trips</servlet-name>
+        <url-pattern>/show_passenger_trips</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>pass_in_trip</servlet-name>
+        <servlet-class>servlets.Pass_in_tripServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>pass_in_trip</servlet-name>
+        <url-pattern>/pass_in_trip</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>delete_pass_in_trip</servlet-name>
+        <servlet-class>servlets.DeletePass_in_tripServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>delete_pass_in_trip</servlet-name>
+        <url-pattern>/delete_pass_in_trip</url-pattern>
+    </servlet-mapping>
+
+
+<!--    <servlet>-->
+<!--        <servlet-name>create</servlet-name>-->
+<!--        <servlet-class>servlets.CreatePassengerServlet</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet>-->
+<!--        <servlet-name>delete</servlet-name>-->
+<!--        <servlet-class>servlets.DeletePassengerServlet</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet>-->
+<!--        <servlet-name>update</servlet-name>-->
+<!--        <servlet-class>servlets.UpdatePassengerServlet</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet>-->
+<!--        <servlet-name>read</servlet-name>-->
+<!--        <servlet-class>servlets.ReadPassengerServlet</servlet-class>-->
+<!--    </servlet>-->
+
+
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>create</servlet-name>-->
+<!--        <url-pattern>/create</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>delete</servlet-name>-->
+<!--        <url-pattern>/delete</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>update</servlet-name>-->
+<!--        <url-pattern>/update</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>read</servlet-name>-->
+<!--        <url-pattern>/read</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+
+</web-app>
